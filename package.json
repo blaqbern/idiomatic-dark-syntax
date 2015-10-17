@@ -1,10 +1,9 @@
 {
   "name": "blaqbern-basic-dark-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.1.0",
+  "description": "A minimal dark syntax theme",
   "keywords": [
-    "syntax",
     "theme"
   ],
   "repository": "https://github.com/atom/blaqbern-basic-dark-syntax",

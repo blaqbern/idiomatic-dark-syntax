@@ -1,0 +1,19 @@
+.source {
+  .json {
+    color: lighten(@red, 15%);
+  }
+  &.gfm {
+    .link {
+      color: @blue;
+    }
+    .markup {
+      -webkit-font-smoothing: auto;
+      &.heading {
+        color: @green;
+      }
+      &.link {
+        color: @cyan;
+      }
+    }
+  }
+}

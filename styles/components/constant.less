@@ -1,0 +1,24 @@
+.constant {
+  color: @red;
+
+  &.character.escape {
+    color: @cyan;
+  }
+
+  &.numeric {
+    color: darken(@pink, 20%);
+  }
+
+  &.other {
+    color: @red;
+  }
+
+  &.other.color,
+  &.other.rgb-value {
+    color: darken(@pink, 20%);
+  }
+
+  &.other.symbol {
+    color: @green;
+  }
+}

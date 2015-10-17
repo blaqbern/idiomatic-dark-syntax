@@ -1,0 +1,83 @@
+.sgml .punctuation.definition.tag {
+  color: @syntax-text-color;
+}
+
+.punctuation {
+  &.section {
+    color: @natural;
+  }
+  &.scss {
+    color: @syntax-text-color;
+  }
+  &.json {
+    &.separator {
+      color: @natural;
+    }
+  }
+  &.definition {
+    &.comment {
+      color: @light-gray;
+    }
+
+    &.json {
+      &.array,
+      &.dictionary {
+        color: @natural;
+      }
+    }
+
+    &.css,
+    &.less,
+    &.scss {
+      &.entity {
+        color: @natural;
+      }
+      &.constant {
+        color: darken(@pink, 10%);
+      }
+    }
+
+    &.string.begin.json,
+    &.string.end.json {
+      color: lighten(@red, 25%);
+    }
+
+    &.string,
+    &.variable,
+    &.array {
+      color: darken(@pink, 10%);
+    }
+
+    &.regexp {
+      color: @cyan;
+    }
+
+    &.parameters{
+      color: darken(@cyan, 10%);
+    }
+
+    &.tag {
+      color: darken(@green, 20%);
+    }
+
+    &.heading,
+    &.identity {
+      color: @blue;
+    }
+
+    &.bold {
+      color: @light-orange;
+      font-weight: bold;
+    }
+
+    &.italic {
+      color: @purple;
+      font-style: italic;
+    }
+  }
+
+  &.section.embedded {
+    color: darken(@red, 10%);
+  }
+
+}

@@ -1,0 +1,22 @@
+.keyword {
+  color: @green;
+
+  &.control {
+    color: @green;
+  }
+
+  &.operator {
+    color: @syntax-text-color;
+    &.regexp {
+      color: @cyan;
+    }
+  }
+
+  &.other.special-method {
+    color: @blue;
+  }
+
+  &.other.unit {
+    color: darken(@pink, 10%);
+  }
+}

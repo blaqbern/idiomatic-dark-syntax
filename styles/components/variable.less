@@ -1,0 +1,16 @@
+.variable {
+  color: @syntax-text-color;
+
+  &.less,
+  &.scss {
+    color: @blue;
+  }
+
+  &.interpolation {
+    color: darken(@red, 10%);
+  }
+
+  &.parameter.function {
+    color: @cyan;
+  }
+}

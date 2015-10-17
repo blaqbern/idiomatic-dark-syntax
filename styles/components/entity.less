@@ -1,0 +1,41 @@
+.entity {
+  &.name.type {
+    color: @light-orange;
+  }
+
+  &.other.inherited-class {
+    color: @green;
+  }
+}
+.entity {
+  &.name.function {
+    color: @blue;
+  }
+
+  &.name.class, &.name.type.class {
+    color: @light-orange;
+  }
+
+  &.name.section {
+    color: @blue;
+  }
+
+  &.name.tag {
+    color: @green;
+  }
+
+  &.other.attribute-name {
+    color: @syntax-text-color;
+
+    &.css {
+      color: @green;
+    }
+
+    &.id {
+      &.css {
+        color: @green;
+      }
+      color: @syntax-text-color;
+    }
+  }
+}

@@ -1,17 +1,11 @@
 .support {
-  &.class {
-    color: @syntax-text-color;
-  }
-
-  &.function  {
-    color: @syntax-text-color;
-
-    &.any-method {
-      color: @blue;
-    }
-  }
-
+  &.class,
+  &.function,
   &.constant {
     color: @syntax-text-color;
+  }
+
+  &.gfm {
+    color: @red;
   }
 }

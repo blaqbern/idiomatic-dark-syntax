@@ -6,7 +6,7 @@
   "keywords": [
     "theme"
   ],
-  "repository": "https://github.com/atom/blaqbern-basic-dark-syntax",
+  "repository": "https://github.com/blaqbern/idiomatic-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

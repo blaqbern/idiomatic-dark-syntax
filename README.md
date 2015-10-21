@@ -8,6 +8,6 @@ Optimized for html, css (and less), javascript, go, and markdown.
 
 You can also keep the minimal highlighting rules and just replace the colors in colors.less with your own dark palette.
 
-![idiomatic-dark_js](screenshot-js.png)
+![idiomatic-dark_js](https://github.com/blaqbern/idiomatic-dark-syntax/blob/master/screenshot-js.png?raw=true)
 
-![idiomatic-dark_html](screenshot-html.png)
+![idiomatic-dark_html](https://github.com/blaqbern/idiomatic-dark-syntax/blob/master/screenshot-html.png?raw=true)

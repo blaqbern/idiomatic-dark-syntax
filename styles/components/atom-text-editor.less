@@ -62,10 +62,8 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 atom-text-editor::shadow {
-  .bracket-matcher {
+  .bracket-matcher .region{
     border-radius: 2px;
-    &.region{
-      border: 1px solid fadeout(@very-light-gray, 40%);
-    }
+    border: 1px solid fadeout(@very-light-gray, 40%);
   }
 }
